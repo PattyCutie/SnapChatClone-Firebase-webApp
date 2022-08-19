@@ -61,7 +61,7 @@ function Preview() {
       .then((url) => {
         addDoc(collectionRef, {
           imageUrl: url,
-          username: user.displayName,
+          username: user.username,
           profilePic: user.profilePic,
           read: false,
           timestamp: serverTimestamp(),

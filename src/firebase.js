@@ -33,7 +33,7 @@ import {
 } from 'firebase/storage'
 
 const firebaseConfig = {
-    //...
+   //...
   };
   // App
   const app = initializeApp(firebaseConfig)
